@@ -14,3 +14,11 @@ print(city)
 pet = input("what is name of your pet?\n")
 print(pet)
 print("your band name could be" + city + " " +pet)
+
+#madlib 1 
+
+person_name = input("enter your name ")
+city = input("enter your city name ")
+weekday = input("What's the day today ")
+madlib = f"Hello {person_name}! hope you are feeling amazing today \n check the weather of {city} and enjoy your {weekday}!"
+print(madlib)
